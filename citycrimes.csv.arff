@@ -1,0 +1,19 @@
+@relation citycrimes
+
+@attribute City {CityA,CityB,CityC,CityD,CityE}
+@attribute Pop numeric
+@attribute WC numeric
+@attribute BP numeric
+@attribute Mur numeric
+@attribute Rap numeric
+@attribute Rob numeric
+@attribute Ass numeric
+@attribute Bus numeric
+@attribute Car numeric
+
+@data
+CityA,500000,120,300,15,25,40,60,80,150
+CityB,800000,200,450,30,50,70,90,120,220
+CityC,300000,90,200,8,15,25,35,60,100
+CityD,1000000,260,600,45,70,100,130,180,300
+CityE,450000,110,280,12,20,38,55,75,140

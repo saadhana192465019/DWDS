@@ -1,0 +1,22 @@
+@relation traveltimes
+
+@attribute Date {01-01-2024,02-01-2024,03-01-2024,04-01-2024,05-01-2024}
+@attribute StartTime {08:30,09:00,08:15,10:00,08:45}
+@attribute DayOfWeek {Monday,Tuesday,Wednesday,Thursday,Friday}
+@attribute GoingTo {Office,College,Mall}
+@attribute Distance numeric
+@attribute MaxSpeed numeric
+@attribute AvgSpeed numeric
+@attribute AvgMovingSpeed numeric
+@attribute FuelEconomy numeric
+@attribute TotalTime numeric
+@attribute MovingTime numeric
+@attribute Take407 {Yes,No}
+@attribute All_comments {Traffic,Normal,Fast,Short,Highway}
+
+@data
+01-01-2024,08:30,Monday,Office,18,90,45,50,14,40,30,Yes,Traffic
+02-01-2024,09:00,Tuesday,College,12,70,35,40,16,35,28,No,Normal
+03-01-2024,08:15,Wednesday,Office,20,95,50,55,13,38,32,Yes,Fast
+04-01-2024,10:00,Thursday,Mall,10,60,30,32,18,30,25,No,Short
+05-01-2024,08:45,Friday,Office,22,100,55,60,12,42,35,Yes,Highway

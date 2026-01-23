@@ -1,0 +1,18 @@
+@relation plant_growth
+
+@attribute Soil {Sandy,Loamy,Clay}
+@attribute Water {Low,Medium,High}
+@attribute Sunlight {High,Medium,Low}
+@attribute Growth {No,Yes}
+
+@data
+Sandy,Low,High,No
+Sandy,Medium,High,Yes
+Loamy,Medium,High,Yes
+Clay,Low,Medium,No
+Loamy,High,High,Yes
+Clay,Medium,Low,No
+Sandy,Low,Medium,No
+Loamy,Medium,Medium,Yes
+Clay,High,High,Yes
+Sandy,High,Low,No
